@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.review-card-container {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  background-color: rgb(64, 165, 206);
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+}
+
+.name {
+  text-transform: capitalize;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.position {
+  text-transform: uppercase;
+  padding-top: 8px;
+  font-size: small;
+  color: rgb(85, 187, 228);
+}
+
+.name,
+.position {
+  text-align: center;
+}
+
+.review {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(155, 152, 152);
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.bi-arrow-right-square-fill,
+.bi-arrow-left-square-fill {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgb(85, 187, 228);
+  cursor: pointer;
+}
+
+.surprise-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.surprise {
+  display: block;
+  border: none;
+  outline: none;
+  background: rgb(227, 241, 247);
+  color: rgb(85, 187, 228);
+  padding: 5px;
+  border-radius: 2px;
+  margin: 20px 0 0 10px;
+  cursor: pointer;
+}
