@@ -4,6 +4,7 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 
 function App() {
+  // eslint-disable-next-line
   const [reviews, setReviews] = useState([
     {
       image:
@@ -36,6 +37,7 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = useState(1);
+  // eslint-disable-next-line
   const [postPerPage, setPostPerPage] = useState(1);
 
   const indexOfLastPost = currentPage * postPerPage;
